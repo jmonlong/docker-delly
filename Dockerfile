@@ -23,6 +23,6 @@ RUN pip install awscli
 
 WORKDIR /home
 
-RUN wget --no-check-certificate https://github.com/dellytools/delly/releases/download/v0.7.9/delly_v0.7.9_parallel_linux_x86_64bit \
-        && mv delly_v0.7.9_parallel_linux_x86_64bit /bin/delly \
+RUN wget --no-check-certificate https://github.com/dellytools/delly/releases/download/v0.8.1/delly_v0.8.1_parallel_linux_x86_64bit \
+        && mv delly_v0.8.1_parallel_linux_x86_64bit /bin/delly \
         && chmod +x /bin/delly
